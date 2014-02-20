@@ -1,6 +1,6 @@
 {
   "name"         : "grunt-sprockets-directives",
-  "version"      : "0.1.0",
+  "version"      : "0.1.1-snapshot",
   "description"  : "Dependency management using Sprockets directives.",
   "homepage"     : "https://github.com/Kinvey/grunt-sprockets-directives",
   "bugs"         : { "url": "https://github.com/Kinvey/grunt-sprockets-directives/issues" },

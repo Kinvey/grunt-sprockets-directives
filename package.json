@@ -1,0 +1,29 @@
+{
+  "name"         : "grunt-sprockets-directives",
+  "version"      : "0.1.0",
+  "description"  : "Dependency management using Sprockets directives.",
+  "homepage"     : "https://github.com/Kinvey/grunt-sprockets-directives",
+  "bugs"         : { "url": "https://github.com/Kinvey/grunt-sprockets-directives/issues" },
+  "licenses"     : {
+    "type" : "Apache-2.0",
+    "url"  : "https://raw.github.com/Kinvey/grunt-sprockets-directives/master/LICENSE.txt"
+  },
+  "author"       : "Kinvey, Inc.",
+  "contributors" : [ "Mark van Seventer <mark@kinvey.com>" ],
+  "repository"   : {
+    "type" : "git",
+    "url"  : "git@github.com:Kinvey/grunt-sprockets-directives.git"
+  },
+  "main"            : "tasks/directives.js",
+  "scripts"         : {  "test": "grunt test" },
+  "dependencies"    : { "grunt-contrib-concat": "~0.3" },
+  "devDependencies" : {
+    "grunt"                  : "~0.4",
+    "grunt-contrib-clean"    : "~0.5",
+    "grunt-contrib-jshint"   : "~0.8",
+    "grunt-contrib-nodeunit" : "~0.3",
+    "time-grunt"             : "~0.2"
+  },
+  "engines"  : { "node": ">=0.8" },
+  "keywords" : [ "directives", "gruntplugin", "sprockets" ]
+}

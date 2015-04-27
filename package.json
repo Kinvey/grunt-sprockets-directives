@@ -16,7 +16,7 @@
   },
   "main"            : "tasks/directives.js",
   "scripts"         : {  "test": "grunt test" },
-  "dependencies"    : { "grunt-contrib-concat": "~0.3" },
+  "dependencies"    : { "grunt-contrib-concat": "~0.5" },
   "devDependencies" : {
     "grunt"                  : "~0.4",
     "grunt-contrib-clean"    : "~0.5",

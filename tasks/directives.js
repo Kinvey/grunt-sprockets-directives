@@ -9,9 +9,7 @@ module.exports = function(grunt) {
 
   // Load tasks. Avoid using `grunt.loadNpmTasks` as this will try to load the
   // module relative to the projects `Gruntfile.js`.
-  var modulePath = path.dirname(require.resolve('grunt-contrib-concat'));
-  var taskPath   = path.join(modulePath, 'tasks');
-  grunt.loadTasks(taskPath);
+  var taskPath = path.join(__dirname, '..', 'node_modules', 'grunt-contrib-concat', 'tasks');  grunt.loadTasks(taskPath);
 
   // Register directives task.
   grunt.registerMultiTask('directives', description, function() {
